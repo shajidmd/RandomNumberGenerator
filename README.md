@@ -17,3 +17,5 @@ And then the randomNumber is calculated using the mod operator := (integerHash %
 
 USAGE:
 Call the PCSPRNG(sizeOfArray) method where sizeOfArray is the size of the list, example shown in the main method.
+
+* Instead of the default SHA-3 Keccak implementaion we can also use BLAKE-2 a SHA-3 variant and also a finalist SHA-3 cryptographic hash functions based on Dan Bernstein's ChaCha stream cipher. The implemenation is commented in the code.
